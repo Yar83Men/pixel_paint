@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(202, 249, 197);
+    font-family: sans-serif;
+}
+
+.tools{
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.canvas{
+    width: 480px;
+    height: 480px;
+    margin: 0 auto;
+    cursor: pointer;
+    
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: orangered;
+    color:white;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: grab;
+    font-size: 18px;
+}
+button:hover{
+    background-color: white;
+    color:orangered;
+    border:3px solid orangered;
+}
+input {
+    cursor:grab;
+}
+
+.pixel{
+    width: 2%;
+    height: 2%;
+    border: 1px solid wheat;
+    float: left;
+    background-color: #fff;
+}
